@@ -1,5 +1,5 @@
 {% set name = "modal-client" %}
-{% set version = "0.73.162" %}
+{% set version = "0.73.166" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/modal/modal-{{ version }}.tar.gz
-  sha256: 8fc25e8bef51e4864123934d73c8113175d2da20e48f5eef0a7d8845fd5d3e46
+  sha256: c4b8c8aba84b4979599cc23cd66ceb1dd9f9011fba9d065124f0b83cf3221263
 
 build:
   entry_points:
