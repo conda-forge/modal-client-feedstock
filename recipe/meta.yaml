@@ -1,13 +1,13 @@
 {% set name = "modal-client" %}
-{% set version = "0.74.58" %}
+{% set version = "0.77.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/m/modal/modal-{{ version }}.tar.gz
-  sha256: c0a813fd039642619d9c88d9d76e2289a099e64dc68a20ffd72235dfe10d6167
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/modal-{{ version }}.tar.gz
+  sha256: 0a3c2b438a5d26c4b2a1100a7cecdd47e09f715e2a6e0de2a50aad235ddc92c3
 
 build:
   entry_points:
@@ -26,12 +26,11 @@ requirements:
     - python >={{ python_min }}
     - aiohttp
     - certifi
-    - click >=8.1.0
-    - fastapi
+    - click >=8.1.0,<8.2.dev0
     - grpclib ==0.4.7
-    - protobuf >=3.19,<6.0,!=4.24.0
+    - protobuf >=3.19,<7.0,!=4.24.0
     - rich >=12.0.0
-    - synchronicity >=0.9.10,<0.10.dev0
+    - synchronicity >=0.9.12,<0.10.dev0
     - toml
     - typer >=0.9
     - types-certifi
