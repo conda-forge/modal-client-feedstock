@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/modal/modal-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/m/modal/modal-{{ version }}.tar.gz
   sha256: 0ffbf06a494ca176767ae512983d26812f6c5dc7aebc4535f96242dddbf3dc69
 
 build:
