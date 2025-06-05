@@ -146,7 +146,9 @@ Feedstock Maintainers
 =====================
 
 * [@aksh-at](https://github.com/aksh-at/)
+* [@devennavani](https://github.com/devennavani/)
 * [@erikbern](https://github.com/erikbern/)
 * [@freider](https://github.com/freider/)
 * [@mwaskom](https://github.com/mwaskom/)
+* [@thomasjpfan](https://github.com/thomasjpfan/)
 
