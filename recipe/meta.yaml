@@ -18,12 +18,12 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - setuptools >=77.0.3,<77.1.dev0
     - wheel
     - pip
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - aiohttp
     - certifi
     - click >=8.1.0,<8.2.dev0
@@ -47,6 +47,7 @@ test:
     - pip check
     - modal --help
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
