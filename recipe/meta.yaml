@@ -37,6 +37,7 @@ requirements:
     - types-toml
     - watchfiles
     - typing_extensions >=4.6,<5.dev0
+    - cbor2
 
 test:
   imports:
