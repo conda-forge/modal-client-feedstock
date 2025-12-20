@@ -27,10 +27,10 @@ requirements:
     - aiohttp
     - certifi
     - click >=8.1.0,<8.2.dev0
-    - grpclib >=0.4.7,<0.4.9
+    - grpclib >=0.4.7,<0.4.10
     - protobuf >=3.19,<7.0,!=4.24.0
     - rich >=12.0.0
-    - synchronicity >=0.10.1,<0.11.dev0
+    - synchronicity >=0.11.1,<0.12.0
     - toml
     - typer >=0.9
     - types-certifi
