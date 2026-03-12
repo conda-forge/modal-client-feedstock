@@ -56,7 +56,6 @@ about:
   summary: Python client library for Modal
   dev_url: https://github.com/modal-labs/modal-client
   license: Apache-2.0
-  license_file: LICENSE
 
 extra:
   recipe-maintainers:
