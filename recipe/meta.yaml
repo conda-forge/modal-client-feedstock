@@ -1,5 +1,5 @@
 {% set name = "modal-client" %}
-{% set version = "1.5.5" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/m/modal/modal-{{ version }}.tar.gz
-  sha256: 30df363ed1898cc3d91a09ff3f95c38ab043f6b6294011b01085312c6a0ac777
+  sha256: c5dd551b5e0a283f3c764476c0a4ebe5bdef1e4a69432fa27e1b1ad8ca5e0817
 
 build:
   entry_points:
     - modal = modal.__main__:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
